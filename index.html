@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InmoFast</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!-- Los links -->
+        <nav>
+            <a href="">
+                <img src="img/Logo_2.png" alt="Logo de la empresa">
+            </a>
+            <ul>
+                <li><a href="#servicios"><b>Servicios</b></a></li>
+                <li><a href="#vender"><b>Vender</b></a></li>
+                <li><a href="#calc"><b>Calculadora</b></a></li>
+                <li><a href="#nosotros"><b>Nosotros</b></a></li>
+                <li><a href="#contacto"><b>Contacto</b></a></li>
+            </ul>
+        </nav>
+        
+        <!-- El logo y mensaje -->
+        <div class="part-head">
+            <img src="img/Logo.png" alt="Logo de la empresa">
+            <h2>InmoFast</h2>
+            <h1>Tu inmobiliaria de confianza</h1>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Sección servicio -->
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p class="txt_serv">Mira nuestros asombrosos <br> <b>servicios</b> </p>
+
+            <div class="fila-serv">
+                <div class="col-serv">
+                    <img src="img/icono_casa.png" alt="Icono de casa">
+                    <p>Descubre y compra tu vivienda ideal fácil y rápido</p>
+                    <button>Averiguar</button>
+                </div>
+
+                <div class="col-serv">
+                    <img src="img/icono_vendido.png" alt="Icono de etiqueta">
+                    <p>Vende tus propiedades sin preocuparte del papeleo</p>
+                    <button>Vender</button>
+                </div>
+
+                <div class="col-serv">
+                    <img src="img/icono_calculadora.png" alt="Icono de calculadora">
+                    <p>Descubre el valor comercial de tu vivienda super rápido</p>
+                    <button>Descubrir</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección vender-->
+        <section id="vender">
+            <h2>¿Quieres vender?</h2>
+            <p class="txt-ven">Así funciona el proceso</p>
+            <div class="fila-ven">
+                <div class="col-ven">
+                    <img src="img/icono_1.png" alt="icono">
+                </div>
+                <div class="col-ven">
+                    <p>1. Nos cuentas de tu tu inmueble y solicitas la oferta</p>
+                </div>
+            </div>
+
+            <div class="fila-ven">
+                <div class="col-ven">
+                    <img src="img/icono_2.png" alt="icono">
+                </div>
+                <div class="col-ven">
+                    <p>2. Recibes la oferta inicial y agendamos la visita</p>
+                </div>
+            </div>
+
+            <div class="fila-ven">
+                <div class="col-ven">
+                    <img src="img/icono_3.png" alt="icono">
+                </div>
+                <div class="col-ven">
+                    <p>3. Firmamos acuerdos y recibes anticipo</p>
+                </div>
+            </div>
+
+            <div class="fila-ven">
+                <div class="col-ven">
+                    <img src="img/icono_4.png" alt="icono">
+                </div>
+                <div class="col-ven">
+                    <p>4. Entregas el inmueble y desembolsamos</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección calculadora -->
+        <section id="calc">
+            <h2>¡Calculadora del valor comercial de tu vivienda!</h2>
+            <p>¿Estás pensando en vender tu casa y no estás seguro de cuánto podrías obtener por ella? <br><br> 
+                Nuestra calculadora puede ayudarte. Esta herramienta utiliza una variedad de factores, incluyendo la <b>ubicación</b> de tu propiedad, su tamaño, su antigüedad, y las recientes ventas de propiedades similares en tu área para proporcionarte una estimación precisa del valor de mercado de tu vivienda</p>
+                <button>Calcular</button>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros">
+            <h2 class="txt-nos">Nosotros</h2>
+
+            <div class="fila-nos">
+                <div class="col-nos">
+                    <h2>HISTORIA</h2>
+                    <p>Fundada en 2000, nuestra inmobiliaria ha crecido de ser una pequeña empresa local a una de las líderes del mercado inmobiliario.</p>
+                </div>
+                <div class="col-nos">
+                    <h2>MISIÓN</h2>
+                    <p>Nuestra misión es ayudar a las personas a encontrar el hogar de sus sueños, proporcionando un servicio excepcional y una experiencia inmobiliaria sin estrés.</p>
+                </div>
+                <div class="col-nos">
+                    <h2>VALORES</h2>
+                    <p>Creemos en la integridad, la transparencia y la dedicación al servicio al cliente. Nos esforzamos por superar las expectativas de nuestros clientes en cada interacción.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección contacto -->
+        <section id="contacto">
+            <h2>CONTACTO</h2>
+            <p>Enviamos tus datos de contacto para <br> enviarte más información de nuestros servicios</p>
+
+            <form action="#">
+                <div class="fila">
+                    <input type="text" placeholder="Nombres: ">
+                    <input type="number" placeholder="Telefono:">
+                </div>
+                <div class="fila">
+                    <input type="email" placeholder="Email:">
+                    <select name="" id="">
+                        <option value="">Ciudad: </option>
+                        <option value="Bogota">Bogota</option>
+                        <option value="Medellin">Medellin</option>
+                        <option value="Cali">Cali</option>
+                    </select>
+                </div>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="fila-final">
+            <div class="col-logo">
+                <a href="#"">
+                <img src="img/Logo_b.png" alt="Logo">
+                </a>
+
+                <div class="col-txt">
+                    <p>© Todos los derechos reservados</p>
+                </div>
+            </div>
+
+            <div class="col-iconos">
+                <a href="#">
+                <img src="img/icono-face.png" alt="icono de facebook"></a>
+            <a href="#">
+                <img src="img/icono-linke.png" alt="icono de LinkeLin"></a>
+                <a href="#">
+                <img src="img/icono-inst.png" alt="icono de instagram">
+            </a>
+            </div>
+        </div>
+        <p class="correo">Correo: mail@gmail.com</p>
+        <p class="tel">+57 3174063869</p>
+    </footer>
+    
+</body>
+</html>

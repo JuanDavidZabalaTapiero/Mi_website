@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilos de la cabecera */
+header{
+    width: 100%;
+    background: url(../img/Fondo_header.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header ul{
+    display: flex;
+    padding-top: 60px;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 150px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+/* Logo y texto principal*/
+div.part-head{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+div.part-head img{
+    height: 120px;
+    transition: .5s;
+}
+div.part-head img:hover{
+    transform: scale(1.2);
+}
+
+div.part-head h2{
+    color: #8C52FF;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    transition: .5s;
+}
+
+div.part-head h1{
+    font-size: 30px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: white;
+    transition: color 0.5s ease;
+}
+div.part-head h1:hover{
+    color: #8C52FF;
+}
+
+/* Main */
+main{
+    width: 100%;
+    position: relative;
+}
+
+section#servicios{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 150px;
+}
+section#servicios h2{
+    text-align: center;
+    font-size: 40px;
+    color: #8C52FF;
+    text-transform: uppercase;
+}
+
+#servicios p.txt_serv{
+    padding: 30px 0;
+    font-size: 25px;
+}
+
+.fila-serv{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.col-serv{
+    width: 250px;
+    border-radius: 20px;
+    background-color: #b38eff;
+    padding: 0 20px;
+    box-shadow: 4px 4px 10px;
+    transition: .5s;
+}
+.col-serv:hover{
+    transform: scale(1.2);
+}
+
+.col-serv img{
+    padding-top: 20px;
+    height: 100px;
+}
+
+.col-serv p{
+    margin: 20px 0;
+    color: white;
+}
+
+.col-serv button{
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: white;
+    color: #8C52FF;
+    border-color: transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+.col-serv button:hover{
+    transform: scale(0.9);
+}
+
+/* Sección vender */
+#vender{
+    padding: 100px 0;
+}
+#vender h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #8C52FF;
+    margin-bottom: 10px;
+}
+#vender p.txt-ven{
+    font-size: 50px;
+    text-align: center;
+    color: #8C52FF;
+    margin-bottom: 50px;
+}
+.fila-ven{
+    width: 70%;
+    border-radius: 20px;
+    border: 4px solid #8C52FF;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+}
+.fila-ven img{
+    height: 70px;
+    width: 70px;
+    transition: .5s;
+    cursor: pointer;
+    object-fit: contain;
+}
+.fila-ven img:hover{
+    transform: rotate(360deg);
+}
+.col-ven p{
+    font-size: 27px;
+}
+.col-ven{
+    margin: auto 0;
+    padding: 0 15px;
+}
+
+/* Sección calculadora */
+#calc{
+    background: url(../img/casa.png);
+    width: 100%;
+    object-fit: contain;
+    background-size: cover;
+    text-align: center;
+}
+#calc h2{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    text-transform: uppercase;
+}
+#calc p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    line-height: 2;
+}
+#calc button{
+    margin: 50px 0;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: white;
+    color: #8C52FF;
+    border-color: transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+#calc button:hover{
+    transform: scale(1.3);
+}
+
+/* Sección Nosotros */
+#nosotros{
+    text-align: center;
+    padding: 100px 0;
+}
+#nosotros h2.txt-nos{
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #8C52FF;
+}
+div.fila-nos{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.col-nos{
+    width: 270px;
+    background-color: #B38EFF;
+    border-radius: 20px;
+    transition: .5s;
+}
+.col-nos:hover {
+    transform: scale(1.1);
+}
+.col-nos h2{
+    margin: 30px 0;
+    color: white;
+}
+.col-nos p{
+    width: 80%;
+    margin: 20px auto;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Sección de contacto */
+#contacto{
+    text-align: center;
+    background: url(../img/fondo_cont.png);
+    height: 100%
+}
+#contacto h2{
+    font-size: 35px;
+    text-align: center;
+    color: #8C52FF;
+}
+#contacto p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #8C52FF;
+}
+.fila{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#contacto form{
+    width: 80%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+#contacto input, select{
+    width: 48%;
+    padding: 12px 20px;
+    margin: 10px 0;
+}
+#contacto button{
+    background: #8C52FF;
+    color: #fff;
+    font-size: 26px;
+    padding: 6px 30px;
+    border-radius: 4px;
+    margin-top: 40px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: .5s;
+    border-color: white;
+}
+#contacto button:hover{
+    transform: scale(0.9);
+    background-color: #fff;
+    color: #8C52FF;
+}
+
+/* Footer */
+footer{
+    background: #8C52FF;
+    padding-top: 100px;
+}
+div.fila-final{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.fila-final img{
+    height: 100px;
+}
+.col-txt p{
+    padding-top: 50px;
+    color: white;
+    margin: auto 0;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.col-iconos{
+    margin: auto 0;
+}
+.col-iconos img{
+    margin: 0 15px;
+    height: 50px;
+}
+.col-logo{
+    display: flex;
+}
+p.correo{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center
+}
+p.tel{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center
+}
+
+
+/* TABLETS IPADS */
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    /* header{
+        background: red;
+    } */
+}
+
+/* PHONES */
+@media screen and (min-width: 320px) and (max-width: 767px){
+    /* header{
+        background: #000;
+    } */
+    header nav{
+        display: block;
+        text-align: center;
+        width: 96%;
+    }
+    header nav ul{
+        margin-top: 30px;
+    }
+    #hero h2{
+        font-size: 36px;
+    }
+    #hero h1{
+        font-size: 26px;
+    }
+
+    #hero button{
+        font-size: 18px;
+        padding: 8px 14px;
+    }
+
+    #planes .fila{
+        display: block;
+    }
+
+    #planes h2{
+        font-size: 36px;
+    }
+
+    #planes p{
+        font-size: 16px;
+    }
+
+    #planes .col-plan{
+        margin-bottom: 30px;
+    }
+
+    #destino .fila{
+        display: block;
+    }
+
+    #contacto .fila{
+        display: block;
+    }
+    #contacto input, #contacto select{
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+
+}
